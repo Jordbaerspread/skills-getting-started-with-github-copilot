@@ -85,3 +85,4 @@ def test_remove_participant_not_found():
     # Assert
     assert response.status_code == 404
     assert "Participant not found" in response.json()["detail"]
+# This is a test comment.
